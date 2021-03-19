@@ -1,0 +1,23 @@
+name: anntraining
+channels:
+  - defaults
+dependencies:
+  #basics
+  - python=3.7
+  - pip=20.0
+  #jupyter
+  - ipykernel
+  - jupyter_client
+  - jupyter
+  # dev
+  - autopep8=1.4
+  # scientific core
+  - pandas
+  # machine learning
+  - statsmodels
+  - tensorflow=2.1
+  - keras
+  - scikit-learn
+  # vizualization
+  - bokeh
+  - hvplot
