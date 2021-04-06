@@ -1,5 +1,6 @@
 name: anntraining
 channels:
+  - pyviz
   - defaults
 dependencies:
   #basics
